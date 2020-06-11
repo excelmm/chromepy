@@ -17,6 +17,7 @@ class ChromeClass(SeleniumChrome):
             executable_path=DEFAULT_DRIVER
         )
         
+        # save session
         with open(SESSION, 'w+') as f:
             f.write('{} {}'.format(self.command_executor._url, self.session_id))
         
@@ -27,7 +28,9 @@ class ChromeClass(SeleniumChrome):
         
     def element_exists_at(self, selector, timeout=None):
         return self.wait_for(selector, timeout) is not None
-        
+    
+    # TODO: create wait_for_element_by_css_selector()
+    #       and wait_for_elements_by_css_selector()
     def wait_for(self, selector, timeout=None):
         if not timeout: 
             timeout = 60 # seconds

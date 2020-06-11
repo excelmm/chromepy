@@ -52,3 +52,5 @@ This examples can be found in the `examples` directory.
 ## Changelog
 
 - 0.0.5 - Basic Chrome and ChromeRemote
+- 0.0.6 - Improve examples to start chrome
+- 0.0.7

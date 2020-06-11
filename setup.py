@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     
 setuptools.setup(
     name = 'ChromePy',  
-    version = '0.0.5',
+    version = '0.0.6',
     scripts = [ ],
     author = "Matheus Vanzan",
     author_email = "matheusvnzn@gmail.com",

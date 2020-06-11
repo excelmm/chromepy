@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from os.path import expanduser
 import os
 
-from .common import *
+from .config import *
 
 
 class ChromeRemote(SeleniumRemote):

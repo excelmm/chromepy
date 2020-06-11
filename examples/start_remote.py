@@ -6,7 +6,7 @@ from chromepy.remote import ChromeRemote
 
 remote1 = ChromeRemote()
 print('remote1 url', remote1.current_url)
-remote1.get('https://google.com')
+remote1.get('https://web.whatsapp.com')
 
 remote2 = ChromeRemote()
 print('remote2 url', remote2.current_url)
